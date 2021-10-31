@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Sitio para aprender sobre el mundo crypto">
+        <meta name="keywords" content="blockchain,ethereum,crypto,criptomonedas,nft, pvu, axieinfinity, inversiones">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cryptoneando</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="https://kit.fontawesome.com/a546cf1da2.js" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/x-icon" href="./img/dollar-sign-solid.svg">
+        
+    </head>
+<body>
+    <div class="contenedor">
+        <div id="barra" class="navbar">
+            <nav>
+                <ul class="bar">
+                    <li class="bar-elem"><span><a href="./index.html">Home</a></span> </li>
+                    <li class="bar-elem"><span> <a href="#blockchain">Blockchain</a></span></li>
+                    <li class="bar-elem"><span><a href="#bitcoin">Bitcoin</a> </span> </li>
+                    <li class="bar-elem"><span><a href="#monedas">Tipos de monedas</a> </span></li>
+                    <li class="bar-elem"><span><a href="#nft">NFT</a></span> </li>
+                </ul>
+            </nav>
+            
+
+        </div>
+
+    
+    <main>
+        <form action="./enviado.html" id="formulario" method="GET">
+            <fieldset class="form-sect">
+                <label for="formulario"><h2>Formulario de contacto</h2></label>
+            </fieldset>
+            <fieldset class="form-sect textos fs-datos">
+                <label for="nom">Nombre: </label>
+                <input type="text" name="nombre" id="nom" placeholder="Cosme" class="inputs">
+                <span></span>
+                <label for="ap">Apellido: </label>
+                <input type="text" name="apellido" id="ap" placeholder="Fulanito" class="inputs">
+                <span></span>
+                <label for="mail">Email: </label>
+                <input type="email" name="mail" id="mail" placeholder="cosme.fulanito@callefalsa123.com" class="inputs">
+                <span></span>
+                <span><label for="rangoeadad">Edad</label>
+                <input type="range" name="rangoedad" id="rangoedad" min="18" max="100" step="1" value="18">
+                <span id="valorEdad"></span>
+                </span>
+                
+            </fieldset>
+            <fieldset class="form-sect fs-2" >
+
+            
+            <h2>¿Deseas recibir novedades sobre el mundo crypto?</h2>
+            <span class="checkmark">
+                <input type="radio" name="mailing" id="si" value="si">
+                <label for="si">Sí</label>
+                
+            </span>
+            <span class="checkmark">
+                <input type="radio" name="mailing" id="no" value="no">
+                <label for="no">NO</label>
+                
+            </span>
+            <h2>
+                Selecciona tus temas de interés
+            </h2>
+            <span class="checkmark">
+                <input type="checkbox" name="bitcoin" id="btc" value="btc" class="checkbox xl">
+                <label for="btc">Bitcoin</label>
+            </span>
+            <span class="checkmark">
+                <input type="checkbox" name="ethereum" id="eth" value="eth" class="checkbox xl">
+                <label for="eth">Ethereum</label>
+            </span>
+            <span class="checkmark">
+
+                <input type="checkbox" name="stablecoins" id="daiusdust" value="stables" class="checkbox xl">
+                <label for="daiusdusdt">Stablecoins</label>
+            
+            </span>
+
+            <span class="checkmark">
+                <input type="checkbox" name="nfts" id="nft" value="nfts">
+                <label for="nft">NFTs</label>
+                
+            </span>
+            <span class="checkmark">
+                <input type="checkbox" name="tutoriales" id="tutos" value="tutoriales" class="checkbox xl">
+                <label for="tutos">Tutoriales</label>
+                
+            </span>
+            
+            </fieldset>
+
+            <fieldset class="form-sect fs-3">
+                <input type="submit" value="Enviar Formulario" class="btn" id="btnEnviar">
+                <input type="reset" value="Resetear Formulario" class="btn" id="btnReset">
+
+            </fieldset>
+        </form>
+    </main>
+    <footer class="foot">
+        <ul class="footer-list">
+            <li class="bar-elem"><span><a href="#">Contacto</a> </span> </li>
+            <li class="bar-elem"><span><a href="./recursos.html">Aprender más</a></span> </li>
+            <li class="bar-elem">Tutoriales</li>
+            <li class="bar-elem">Ubicación</li>
+            
+        </ul>
+
+    </footer>
+    <aside class="lateral">
+        <script src="https://cointelegraph.com/news-widget" data-ct-widget-limit="10" data-ct-widget-theme="dark" data-ct-widget-size="small" data-ct-widget-language="en"></script>
+        <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"></script><div id="coinmarketcap-widget-coin-price-block" coins="1,1027,825" currency="USD" theme="light" transparent="true" show-symbol-logo="false"></div>
+
+    </aside>
+</div>
+
+<script src="./js/index.js"></script>
+</body>
+</html>
