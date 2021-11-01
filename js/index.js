@@ -33,15 +33,5 @@ botonEnviar.addEventListener("click", (evento)=>{
 var formData = JSON.stringify($("#formulario").serializeArray());
 
 })
-  
-/* let entradas = document.querySelectorAll(".fs-datos input")
-    console.log(entradas)
-
-    for (let entrada of entradas){
-        if(entrada.innerText === ''){
-            alert("Debe rellenar todos los campos")
-            break;
-        }
-} */
 
 
